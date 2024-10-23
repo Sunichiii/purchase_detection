@@ -1,0 +1,43 @@
+name: pika_pika
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_sign_in:
+  shared_preferences:
+  fl_chart:
+  provider:
+
+
+
+  http: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+
+
+
+flutter:
+  uses-material-design: true
+
+  # Assets section, include all necessary assets here
+  assets:
+    - lib/assets/images/google.png
+    - lib/assets/images/apple.png
+
+  # Custom fonts can be added here if required
+  # fonts:
+  #   - family: YourFontFamily
+  #     fonts:
+  #       - asset: fonts/YourFont-Regular.ttf
+  #       - asset: fonts/YourFont-Bold.ttf
+  #         weight: 700
